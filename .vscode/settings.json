@@ -1,0 +1,29 @@
+{
+    "cSpell.language": "pt-BR,en",
+    "cSpell.enableFiletypes": [
+        "!asciidoc",
+        "!c",
+        "!cpp",
+        "!csharp",
+        "!elixir",
+        "!go",
+        "!handlebars",
+        "!haskell",
+        "!jade",
+        "!java",
+        "!jsonc",
+        "!jupyter",
+        "!latex",
+        "!php",
+        "!plaintext",
+        "!pug",
+        "!python",
+        "!restructuredtext",
+        "!vue",
+        "!yaml",
+        "!yml",
+        "quokka-recent",
+        "sass",
+        "xsl"
+    ]
+}

@@ -1,0 +1,24 @@
+import firebase from '../../firebase/config'
+import Usuario from '../../model/Usuario'
+
+interface AuthContextProps{
+    usuario?:Usuario
+    loginGoogle:() => Promise<void>
+}
+
+const AuthContext = createContext<AuthContextProps>({
+
+})
+
+const function AuthProvider(props){
+    return (
+        <AuthContext.Provider value={{
+
+        }}>
+            {props.children}
+        </AuthContext.Provider>
+    )
+}
+
+
+export default AuthContext
